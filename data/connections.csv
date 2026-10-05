@@ -1,0 +1,164 @@
+from,to,type,label,start_date,end_date,status,stake,source_url,confidence,last_verified,contributed_by,source_id
+st-nauru,nori,sponsors,Sponsorship under UNCLOS Art. 153,2011-07-22,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+st-tonga,toml,sponsors,Sponsorship under UNCLOS Art. 153,2012-01-11,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+st-kiribati,marawa,sponsors,Sponsorship under UNCLOS Art. 153,2015-01-19,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+st-belgium,gsr,sponsors,Sponsorship under UNCLOS Art. 153,2013-01-14,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+st-uk,uksrl,sponsors,Sponsorship under UNCLOS Art. 153,2013-02-08,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+st-singapore,oms,sponsors,Sponsorship under UNCLOS Art. 153,2015-01-22,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+st-cook-islands,ciic,sponsors,Sponsorship under UNCLOS Art. 153,2016-07-15,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+st-china,minmetals,sponsors,Sponsorship under UNCLOS Art. 153,2017-05-12,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+st-china,comra,sponsors,Sponsorship under UNCLOS Art. 153,2001-05-22,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+st-china,beijing-pioneer,sponsors,Sponsorship under UNCLOS Art. 153,,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,reported,,seed,src-isa-contractors
+st-japan,dord,sponsors,Sponsorship under UNCLOS Art. 153,2001-06-20,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+st-japan,jogmec,sponsors,Sponsorship under UNCLOS Art. 153,2014-01-27,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+st-germany,bgr,sponsors,Sponsorship under UNCLOS Art. 153,2006-07-19,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+st-france,ifremer,sponsors,Sponsorship under UNCLOS Art. 153,2001-06-20,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+st-jamaica,bmj,sponsors,Sponsorship under UNCLOS Art. 153,2021-04-01,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,reported,,seed,src-isa-contractors
+st-brazil,cprm,sponsors,Sponsorship under UNCLOS Art. 153,2015-11-09,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+st-russia,yuzhmor,sponsors,Sponsorship under UNCLOS Art. 153,2001-03-29,,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+nori,ccz,holds-exploration-contract,Polymetallic nodules,2011-07-22,2026-07-21,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+toml,ccz,holds-exploration-contract,Polymetallic nodules,2012-01-11,2027-01-10,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+marawa,ccz,holds-exploration-contract,Polymetallic nodules,2015-01-19,2030-01-18,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+gsr,ccz,holds-exploration-contract,Polymetallic nodules,2013-01-14,2028-01-13,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+uksrl,ccz,holds-exploration-contract,Polymetallic nodules (Area I),2013-02-08,2028-02-07,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+uksrl,ccz,holds-exploration-contract,Polymetallic nodules (Area II),2016-03-29,2031-03-28,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+oms,ccz,holds-exploration-contract,Polymetallic nodules,2015-01-22,2030-01-21,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+ciic,ccz,holds-exploration-contract,Polymetallic nodules,2016-07-15,2031-07-14,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+minmetals,ccz,holds-exploration-contract,Polymetallic nodules,2017-05-12,2032-05-11,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+comra,ccz,holds-exploration-contract,Polymetallic nodules,2001-05-22,2021-05-21,extended,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+dord,ccz,holds-exploration-contract,Polymetallic nodules,2001-06-20,2021-06-19,extended,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+ifremer,ccz,holds-exploration-contract,Polymetallic nodules,2001-06-20,2021-06-19,extended,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+bgr,ccz,holds-exploration-contract,Polymetallic nodules,2006-07-19,2021-07-18,extended,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+yuzhmor,ccz,holds-exploration-contract,Polymetallic nodules,2001-03-29,2021-03-28,extended,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+iom,ccz,holds-exploration-contract,Polymetallic nodules,2001-03-29,2021-03-28,extended,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+govt-korea,ccz,holds-exploration-contract,Polymetallic nodules,2001-04-27,2021-04-26,extended,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+bmj,ccz,holds-exploration-contract,Polymetallic nodules (reserved area),2021-04-01,2036-03-31,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,reported,,seed,src-isa-contractors
+govt-india,indian-ocean-basin,holds-exploration-contract,Polymetallic nodules,2002-03-25,2022-03-24,extended,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+govt-poland,mar,holds-exploration-contract,Polymetallic sulphides,2018-02-12,2033-02-11,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+govt-russia,mar,holds-exploration-contract,Polymetallic sulphides,2012-10-29,2027-10-28,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+ifremer,mar,holds-exploration-contract,Polymetallic sulphides,2014-11-18,2029-11-17,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+bgr,cir,holds-exploration-contract,Polymetallic sulphides,2015-05-06,2030-05-05,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+govt-india,cir,holds-exploration-contract,Polymetallic sulphides,2016-09-26,2031-09-25,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+govt-korea,cir,holds-exploration-contract,Polymetallic sulphides,2014-06-24,2029-06-23,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+comra,swir,holds-exploration-contract,Polymetallic sulphides,2011-11-18,2026-11-17,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+govt-korea,wpacific,holds-exploration-contract,Cobalt-rich crusts,2018-03-27,2033-03-26,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+jogmec,wpacific,holds-exploration-contract,Cobalt-rich crusts,2014-01-27,2029-01-26,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+comra,wpacific,holds-exploration-contract,Cobalt-rich crusts,2014-04-29,2029-04-28,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+minprirody,wpacific,holds-exploration-contract,Cobalt-rich crusts (Magellan Mountains),2015-03-10,2030-03-09,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+cprm,rio-grande,holds-exploration-contract,Cobalt-rich crusts,2015-11-09,2030-11-08,active,,https://www.isa.org.jm/deep-seabed-minerals-contractors,confirmed,,seed,src-isa-contractors
+nori,tmc,subsidiary-of,Wholly owned subsidiary,,,active,100%,https://metals.co/,confirmed,,seed,src-company-materials
+toml,tmc,subsidiary-of,Wholly owned subsidiary,,,active,100%,https://metals.co/,confirmed,,seed,src-company-materials
+gsr,deme,subsidiary-of,Wholly owned subsidiary,,,active,100%,https://www.deme-group.com/,confirmed,,seed,src-company-materials
+uksrl,lockheed,subsidiary-of,Former ownership,,2023-03-01,ended,,https://www.isa.org.jm/,reported,,seed,src-isa-contractors
+uksrl,loke,subsidiary-of,Acquired from Lockheed Martin,2023-03-01,,active,,,reported,,seed,
+tmc,nasdaq,listed-on,Common shares,2021-09-09,,active,,https://metals.co/,confirmed,,seed,src-company-materials
+deme,euronext-brussels,listed-on,Common shares,2022-06-30,,active,,https://www.deme-group.com/,reported,,seed,src-company-materials
+tmc,st-canada,incorporated-in,Headquartered in Vancouver,,,active,,https://metals.co/,confirmed,,seed,src-company-materials
+allseas,st-switzerland,incorporated-in,Group headquarters,,,active,,https://allseas.com/,confirmed,,seed,src-company-materials
+loke,st-norway,incorporated-in,Company registration,,,active,,,reported,,seed,
+isa,nori,issues-contract-to,Exploration contract,2011-07-22,,active,,https://www.isa.org.jm/,confirmed,,seed,src-isa-contractors
+isa,toml,issues-contract-to,Exploration contract,2012-01-11,,active,,https://www.isa.org.jm/,confirmed,,seed,src-isa-contractors
+isa,gsr,issues-contract-to,Exploration contract,2013-01-14,,active,,https://www.isa.org.jm/,confirmed,,seed,src-isa-contractors
+isa-council,isa,organ-of,Executive organ,,,active,,https://www.isa.org.jm/,confirmed,,seed,src-isa-contractors
+isa-assembly,isa,organ-of,Supreme organ,,,active,,https://www.isa.org.jm/,confirmed,,seed,src-isa-contractors
+isa-ltc,isa-council,organ-of,Subsidiary organ of the Council,,,active,,https://www.isa.org.jm/,confirmed,,seed,src-isa-contractors
+allseas,nori,supplies-technology-to,Vessel conversion and collector system for the 2022 trial,2019-01-01,,active,,https://allseas.com/,confirmed,,seed,src-company-materials
+geomar,miningimpact,partner-in,Coordinating institution,2015-01-01,,active,,https://www.jpi-oceans.eu/,confirmed,,seed,src-jpi-miningimpact
+nioz,miningimpact,partner-in,Research partner,2015-01-01,,active,,https://www.jpi-oceans.eu/,confirmed,,seed,src-jpi-miningimpact
+noc,miningimpact,partner-in,Research partner,,,active,,https://www.jpi-oceans.eu/,reported,,seed,src-jpi-miningimpact
+jpi-oceans,miningimpact,funds,Programme funding coordination,2015-01-01,,active,,https://www.jpi-oceans.eu/,confirmed,,seed,src-jpi-miningimpact
+miningimpact,gsr,monitors,Independent monitoring of the 2021 collector trial,2021-04-01,2021-06-01,ended,,https://www.jpi-oceans.eu/,confirmed,,seed,src-jpi-miningimpact
+miningimpact,ccz,studies,Environmental baseline and impact research,2015-01-01,,active,,https://www.jpi-oceans.eu/,confirmed,,seed,src-jpi-miningimpact
+dscc,isa,advocates-to,Campaigns for a moratorium at ISA sessions,,,active,,https://deep-sea-conservation.org/,confirmed,,seed,src-dscc-tracker
+greenpeace,tmc,opposes,Direct action and public campaigning,,,active,,https://www.greenpeace.org/international/,reported,,seed,src-company-materials
+st-france,isa,member-of,ISA member state advocating a ban,,,active,,,reported,,seed,
+st-germany,isa,member-of,ISA member state advocating a precautionary pause,,,active,,,reported,,seed,
+st-nauru,isa,member-of,ISA member state,,,active,,,confirmed,,seed,
+st-china,isa,member-of,ISA member state,,,active,,,confirmed,,seed,
+isa,unclos,authorised-under,Established by Part XI,1994-11-16,,active,,https://www.isa.org.jm/,confirmed,,seed,src-isa-contractors
+mining-code,isa,authorised-under,Draft regulations under negotiation since 2014,2014-01-01,,draft,,https://www.isa.org.jm/,confirmed,,seed,src-isa-contractors
+noaa,dshmra,authorised-under,Administering agency,1980-01-01,,active,,https://www.congress.gov/crs-product/IF12608,confirmed,,seed,src-crs
+noaa-rule-2026,eo-14285,authorised-under,Rule implementing the executive order,2026-01-21,,active,,https://www.noaa.gov/news-release/noaa-accelerates-permitting-timeline-for-deep-seabed-mining-applications,confirmed,,seed,src-noaa-register
+sbma,ck-seabed-act,authorised-under,Administering authority,,,active,,,reported,,seed,
+nor-energy,nor-seabed-act,authorised-under,Administering ministry,,,active,,,reported,,seed,
+st-usa,dshmra,enacted,Congress 1980,1980-01-01,,active,,https://www.congress.gov/crs-product/IF12608,confirmed,,seed,src-crs
+st-usa,eo-14285,enacted,Presidential executive order,2025-04-24,,active,,https://www.gibsondunn.com/us-moves-to-reduce-deep-sea-mining-permit-times-under-new-noaa-rule/,confirmed,,seed,src-trade-press
+st-norway,nor-seabed-act,enacted,National legislation,,,active,,,reported,,seed,
+st-cook-islands,ck-seabed-act,enacted,National legislation,,,active,,,reported,,seed,
+tmc-usa,tmc,subsidiary-of,Wholly owned; sister company of NORI,,,active,100%,https://www.congress.gov/crs-product/IF12608,confirmed,,seed,src-crs
+moana,ocean-minerals-llc,subsidiary-of,Subsidiary,,,active,,,reported,,seed,
+tmc-usa,noaa,applied-for,Consolidated exploration licence and commercial recovery permit; found in substantial compliance,2026-03-09,,pending,,https://www.aoshearman.com/en/insights/deep-sea-mining-in-2026-regulation-geopolitics-and-the-race-for-critical-minerals,reported,,seed,src-trade-press
+amds,noaa,applied-for,Exploration licence application in the Penrhyn Basin,,,pending,,https://www.congress.gov/crs-product/IF12608,confirmed,,seed,src-crs
+noaa,tmc-usa,issues-national-licence,Exploration licence application (B) certified,2026-05-26,,active,,https://www.congress.gov/crs-product/IF12608,reported,,seed,src-crs
+tmc-usa,ccz,applied-for,Area overlapping the ISA regime,,,pending,,https://www.congress.gov/crs-product/IF12608,reported,,seed,src-crs
+amds,penrhyn-basin,applied-for,Exploration licence application,,,pending,,https://www.congress.gov/crs-product/IF12608,confirmed,,seed,src-crs
+sbma,moana,issues-national-licence,Five-year EEZ exploration licence,2022-02-01,,active,,,reported,,seed,
+sbma,cic-ltd,issues-national-licence,Five-year EEZ exploration licence,2022-02-01,,active,,,reported,,seed,
+sbma,ciic-seabed,issues-national-licence,Five-year EEZ exploration licence,2022-02-01,,active,,,reported,,seed,
+moana,ck-eez,holds-national-licence,Nodule exploration,2022-02-01,,active,,,reported,,seed,
+cic-ltd,ck-eez,holds-national-licence,Nodule exploration,2022-02-01,,active,,,reported,,seed,
+ciic-seabed,ck-eez,holds-national-licence,Nodule exploration,2022-02-01,,active,,,reported,,seed,
+aomc,ck-eez,holds-national-licence,Exploration rights held by the merging entity,,,active,,https://www.aoshearman.com/en/insights/deep-sea-mining-in-2026-regulation-geopolitics-and-the-race-for-critical-minerals,reported,,seed,src-trade-press
+aomc,ccz,holds-exploration-contract,Rights in the Area held by the merging entity,,,active,,https://www.aoshearman.com/en/insights/deep-sea-mining-in-2026-regulation-geopolitics-and-the-race-for-critical-minerals,reported,,seed,src-trade-press
+odyssey,aomc,joint-venture-with,Announced merger creating AOMC,2026-01-01,,pending,,https://www.aoshearman.com/en/insights/deep-sea-mining-in-2026-regulation-geopolitics-and-the-race-for-critical-minerals,reported,,seed,src-trade-press
+odyssey,nasdaq,listed-on,Common shares,,,active,,https://www.aoshearman.com/en/insights/deep-sea-mining-in-2026-regulation-geopolitics-and-the-race-for-critical-minerals,reported,,seed,src-trade-press
+dsm-corp,cse,listed-on,Common shares,,,active,,,reported,,seed,
+green-minerals,oslo-bors,listed-on,Common shares,,,active,,https://geoexpro.com/norway-stumbles-at-the-finish-line/,reported,,seed,src-trade-press
+dsm-corp,ck-eez,applied-for,Concession pathway in the Cook Islands EEZ,2026-02-11,,pending,,,reported,,seed,
+dsm-corp,noaa,applied-for,Pursuing NOAA permitting pathway,2026-02-11,,pending,,,reported,,seed,
+green-minerals,nor-shelf,applied-for,Awaiting the postponed first licensing round,,,pending,,https://geoexpro.com/norway-stumbles-at-the-finish-line/,reported,,seed,src-trade-press
+adepth,nor-shelf,applied-for,Awaiting the postponed first licensing round,,,pending,,https://geoexpro.com/norway-stumbles-at-the-finish-line/,reported,,seed,src-trade-press
+nor-energy,nor-shelf,issues-national-licence,First licensing round postponed to at least 2029 by the December 2025 budget agreement,,,suspended,,https://geoexpro.com/norway-stumbles-at-the-finish-line/,confirmed,,seed,src-trade-press
+loke,nor-shelf,former-licence,Company entered bankruptcy after the licensing round was postponed,,2025-12-01,ended,,https://geoexpro.com/norway-stumbles-at-the-finish-line/,reported,,seed,src-trade-press
+adepth,eminent,partner-in,Project lead,,,active,,https://geoexpro.com/norway-stumbles-at-the-finish-line/,reported,,seed,src-trade-press
+sintef,eminent,partner-in,Research partner,,,active,,,inferred,,seed,
+nautilus,bismarck-sea,former-licence,Solwara 1 mining lease; project collapsed with the company in 2019,2011-01-01,2019-01-01,ended,,,reported,,seed,
+png-mra,nautilus,issues-national-licence,Solwara 1 mining lease,2011-01-01,2019-01-01,ended,,,reported,,seed,
+jogmec,okinawa-trough,holds-national-licence,Sulphides pilot extraction in the Japanese EEZ,2017-01-01,,active,,,reported,,seed,
+japan-meti,japan-eez,issues-national-licence,Government-backed field test launched January 2026,2026-01-01,,active,,https://www.gibsondunn.com/us-moves-to-reduce-deep-sea-mining-permit-times-under-new-noaa-rule/,reported,,seed,src-trade-press
+ttr,south-taranaki,applied-for,Marine consent for iron sands extraction; long-running litigation,,,pending,,,reported,,seed,
+nz-epa,ttr,issues-national-licence,Marine consent decisions,,,disputed,,,reported,,seed,
+st-usa,st-cook-islands,mou-with,Critical minerals framework signed February 2026,2026-02-04,,active,,https://www.geopoliticalmonitor.com/us-cook-islands-seabed-minerals-deal/,reported,,seed,src-trade-press
+st-china,st-cook-islands,mou-with,Cooperation agreements signed February 2025,2025-02-01,,active,,https://www.gibsondunn.com/us-moves-to-reduce-deep-sea-mining-permit-times-under-new-noaa-rule/,reported,,seed,src-trade-press
+st-norway,nor-energy,enacted,Postponement of the first licensing round to at least 2029,2025-12-03,,active,,https://news.mongabay.com/short-article/2025/12/norway-pauses-deep-sea-mining-for-four-years-in-policy-u-turn/,confirmed,,seed,src-trade-press
+st-norway,isa,supports-moratorium,Domestic precautionary pause; position at ISA needs checking,2025-12-03,,active,,https://www.ohchr.org/en/press-releases/2025/12/un-experts-commend-norway-decision-postpone-deep-sea-mining-licensing,reported,,seed,src-isa-documents
+st-france,isa,supports-moratorium,Advocates a ban on exploitation,,,active,,,reported,,seed,
+st-germany,isa,supports-moratorium,Advocates a precautionary pause,,,active,,,reported,,seed,
+dscc,st-norway,advocates-to,Campaigning contributed to the Norwegian pause,,,active,,,inferred,,seed,
+greenpeace,nor-energy,opposes,Public campaigning against Norwegian licensing,,,active,,,reported,,seed,
+impossible-metals,noaa,applied-for,Interest in US permitting pathways,,,pending,,,inferred,,seed,
+bbnj,unclos,authorised-under,Implementing agreement under UNCLOS,,,active,,,reported,,seed,
+isa,src-isa-contractors,publishes,The contractor register,,,active,,,confirmed,,seed,
+isa,src-isa-deepdata,publishes,Contractor-submitted data repository,,,active,,,confirmed,,seed,
+isa,src-isa-documents,publishes,Session documentation,,,active,,,confirmed,,seed,
+isa-ltc,src-ltc-confidential,withholds,Application review is closed to observers,,,active,,,confirmed,,seed,
+noaa,src-noaa-register,publishes,Licence notices and rulemaking,,,active,,,confirmed,,seed,
+sbma,src-national-registers,publishes,Cook Islands licence register,,,active,,,reported,,seed,
+nor-energy,src-national-registers,publishes,Norwegian licensing information,,,active,,,reported,,seed,
+png-mra,src-national-registers,publishes,PNG lease records,,,active,,,inferred,,seed,
+dscc,src-dscc-tracker,publishes,State positions tracker,,,active,,,confirmed,,seed,
+jpi-oceans,src-jpi-miningimpact,publishes,Independent monitoring outputs,,,active,,,confirmed,,seed,
+geomar,src-peer-reviewed,publishes,Baseline and impact science,,,active,,,confirmed,,seed,
+tmc,src-company-materials,publishes,Investor and press materials,,,active,,,confirmed,,seed,
+tmc,src-sec-edgar,publishes,Securities filings as a Nasdaq registrant,,,active,,,confirmed,,seed,
+st-usa,src-crs,publishes,Congressional Research Service,,,active,,,confirmed,,seed,
+src-isa-contractors,ccz,documents,Contract areas and holders,,,active,,,confirmed,,seed,
+src-isa-contractors,isa,documents,The ISA contracting regime,,,active,,,confirmed,,seed,
+src-isa-deepdata,ccz,documents,Geological and environmental data,,,active,,,reported,,seed,
+src-noaa-register,tmc-usa,documents,Application and certification record,,,active,,,confirmed,,seed,
+src-noaa-register,noaa-rule-2026,documents,Rulemaking record,,,active,,,confirmed,,seed,
+src-sec-edgar,tmc,documents,"Ownership, finances, stated risks",,,active,,,confirmed,,seed,
+src-opencorporates,tmc,documents,Subsidiary and ownership chains,,,active,,,reported,,seed,
+src-opencorporates,loke,documents,Company status and filings,,,active,,,reported,,seed,
+src-cordis,miningimpact,documents,Consortium membership and funding,,,active,,,confirmed,,seed,
+src-jpi-miningimpact,gsr,documents,Independent monitoring of the collector trial,,,active,,,confirmed,,seed,
+src-dscc-tracker,st-france,documents,Stated moratorium position,,,active,,,reported,,seed,
+src-dscc-tracker,st-germany,documents,Stated pause position,,,active,,,reported,,seed,
+src-company-materials,aomc,documents,Merger announcement,,,active,,,reported,,seed,
+src-exchange-disclosures,green-minerals,documents,Continuous disclosure,,,active,,,reported,,seed,
+src-national-registers,ck-eez,documents,Cook Islands EEZ licences,,,active,,,reported,,seed,
+src-peer-reviewed,ccz,documents,Ecology and impact literature,,,active,,,confirmed,,seed,
+src-crs,dshmra,documents,Statutory and permitting analysis,,,active,,,confirmed,,seed,
+src-trade-press,src-isa-contractors,derives-from,Compilations restate the ISA register and go stale,,,active,,,confirmed,,seed,
+src-dscc-tracker,src-isa-documents,derives-from,Positions drawn from session statements,,,active,,,inferred,,seed,
+src-crs,src-noaa-register,derives-from,Analysis of the regulatory record,,,active,,,inferred,,seed,

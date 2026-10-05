@@ -1,0 +1,140 @@
+/* ARCHIVE. Styling for the Kumu version of this board, kept for anyone who still
+   runs one. The website in this repository does not use this file. */
+
+/* ==========================================================================
+   Deep-Sea Mining Knowledge Board — Kumu Advanced Editor
+
+   Your working code, plus three additions marked NEW.
+   Comments are C-style, field names are element-type / connection-type.
+
+   TWO LAYOUTS below. Only ONE @settings block may be active at a time.
+   The role-chain grid is live; the three-track layout is commented out
+   underneath it. Swap by moving the comment markers.
+
+   This code belongs to ONE VIEW. Other views keep their own.
+   ========================================================================== */
+
+
+/* ---- LAYOUT A: role-chain grid (live) ---------------------------------- */
+
+@settings {
+  layout: scatter;
+  layout-x: "grid_x_bary";
+  layout-y: "order_barycentre";
+  layout-x-multiplier: 420;
+  layout-y-multiplier: 80;
+  font-cutoff: 0;
+  ignore: element[element-type="track-label"];
+}
+
+
+/* ---- LAYOUT B: three permitting tracks (NEW) ---------------------------
+   To use this instead, comment out LAYOUT A above and uncomment this.
+   tracks_x already carries the offset for multi-regime entities, and the
+   track labels must stay visible here, so there is no ignore line.
+   If the map comes out upside down, make the y multiplier negative.
+
+@settings {
+  layout: scatter;
+  layout-x: "tracks_x";
+  layout-y: "tracks_y";
+  layout-x-multiplier: 420;
+  layout-y-multiplier: 26;
+  font-cutoff: 0;
+}
+   ----------------------------------------------------------------------- */
+
+
+/* ---- Base styling ------------------------------------------------------ */
+
+element { size: 14; text-align: bottom; text-overflow: wrap 16; font-color: #333333; font-size: 14; }
+connection { label-visibility: hidden; }
+
+element[element-type="heading"] { shape: rectangle; width: auto; color: transparent; border-color: transparent; text-align: center; text-overflow: off; font-size: 24; font-color: #555555; font-weight: bold; }
+element[element-type="track-label"] { shape: rectangle; width: auto; color: transparent; border-color: transparent; text-align: center; text-overflow: off; font-size: 20; font-color: #222222; font-weight: bold; }
+element[element-type="state"] { size: 16; text-align: bottom; font-color: #333333; font-size: 14; }
+
+
+/* ---- Entities ---------------------------------------------------------- */
+
+/* Companies */
+element[element-type="company"] { color: #9C6A12; shape: circle; }
+/* States */
+element[element-type="state"] { color: #2D6C57; shape: pill; }
+/* National regulators */
+element[element-type="regulator"] { color: #B4552C; shape: hexagon; }
+/* International bodies */
+element[element-type="body"] { color: #94391D; shape: hexagon; }
+/* Legal instruments */
+element[element-type="instrument"] { color: #7A6733; shape: square; }
+/* Areas and licence zones */
+element[element-type="area"] { color: #2A5468; shape: diamond; }
+/* Research organisations */
+element[element-type="research-org"] { color: #2B5E8A; shape: circle; }
+/* Research projects */
+element[element-type="project"] { color: #63479A; shape: circle; }
+/* NGOs */
+element[element-type="ngo"] { color: #9E3654; shape: circle; }
+/* Data sources */
+element[element-type="source"] { color: #2E6A72; shape: square; }
+/* Stock exchanges */
+element[element-type="exchange"] { color: #5D6862; shape: pill; }
+
+
+/* ---- Relationships: colour carries the family -------------------------- */
+
+/* Authorisation to operate */
+connection[connection-type="sponsors"], connection[connection-type="issues-contract-to"], connection[connection-type="issues-national-licence"], connection[connection-type="applied-for"] { color: #94391D; }
+/* Legal basis */
+connection[connection-type="authorised-under"], connection[connection-type="enacted"] { color: #7A6733; }
+/* Ownership and capital */
+connection[connection-type="subsidiary-of"], connection[connection-type="joint-venture-with"], connection[connection-type="listed-on"], connection[connection-type="incorporated-in"] { color: #9C6A12; }
+/* Resource access */
+connection[connection-type="holds-exploration-contract"], connection[connection-type="holds-national-licence"], connection[connection-type="former-licence"] { color: #1F6E62; }
+/* Cooperation */
+connection[connection-type="mou-with"], connection[connection-type="partner-in"], connection[connection-type="supplies-technology-to"], connection[connection-type="funds"] { color: #63479A; }
+/* Knowledge and oversight */
+connection[connection-type="monitors"], connection[connection-type="studies"] { color: #2B5E8A; }
+/* Position and contestation */
+connection[connection-type="opposes"], connection[connection-type="advocates-to"], connection[connection-type="supports-moratorium"] { color: #9E3654; }
+/* Institutional structure */
+connection[connection-type="organ-of"], connection[connection-type="member-of"] { color: #54636B; }
+/* Where the data comes from */
+connection[connection-type="publishes"], connection[connection-type="documents"], connection[connection-type="derives-from"], connection[connection-type="withholds"] { color: #2E6A72; }
+
+
+/* ---- Second channel: legally binding or not ---------------------------- */
+
+/* Not legally binding (dashed) */
+connection[connection-type="applied-for"], connection[connection-type="former-licence"], connection[connection-type="mou-with"], connection[connection-type="monitors"], connection[connection-type="studies"], connection[connection-type="opposes"], connection[connection-type="advocates-to"], connection[connection-type="supports-moratorium"] { pattern: dashed; }
+
+
+/* ---- Third channel: strength of evidence ------------------------------- */
+
+/* Reported (less certain) */
+connection[confidence="reported"] { opacity: 0.6; }
+/* Inferred (least certain) */
+connection[confidence="inferred"] { opacity: 0.3; }
+
+/* NEW: lapsed and suspended relationships stay on the map but step back */
+connection[status="ended"] { opacity: 0.35; }
+connection[status="suspended"] { opacity: 0.35; }
+
+
+/* ---- NEW: dropdowns at the top of the map ------------------------------
+   Add this block LAST and on its own, so if it misbehaves you know why.
+   Click and hold any element to focus on it — Kumu's built-in
+   click-to-trace. "out" sets how many steps the focus reaches.
+   ----------------------------------------------------------------------- */
+
+@controls {
+  top {
+    filter {
+      by: "element type";
+    }
+    focus {
+      by: "track";
+      out: 1;
+    }
+  }
+}

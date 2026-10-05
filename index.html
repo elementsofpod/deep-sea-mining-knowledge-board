@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deep-Sea Mining Knowledge Board</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%8C%8A%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <h1>Deep-sea mining, laid out as a network</h1>
+    <p>Relationships are coloured by what kind of relationship they are, and patterned to separate types within each kind. Faint links are weakly evidenced. Click any node to see what it connects to.</p>
+  </div>
+  <div class="readout"><b id="n-nodes">0</b> entities &nbsp; <b id="n-edges">0</b> relationships &nbsp; <span id="xing-wrap"><b id="n-xing">0</b> edge crossings</span></div>
+</header>
+
+<div class="shell">
+  <aside class="rail">
+    <div class="group">
+      <h2>Emphasis</h2>
+      <p class="hint">What the map is about. Sets which entities and relationships are in play.</p>
+      <select id="emphasis"></select>
+    </div>
+    <div class="group">
+      <h2>Arrangement</h2>
+      <p class="hint">How it is laid out. Independent of the emphasis above.</p>
+      <select id="layout">
+        <option value="columns">Columns</option>
+        <option value="clusters">Clusters</option>
+        <option value="force">Free (force-directed)</option>
+      </select>
+      <p class="hint" style="margin:10px 0 4px">Column order (track views):</p>
+      <select id="roleorder">
+        <option value="0,4,3,2,1,5,6,7" selected>Capital, Legal, Authorities, States, Companies, Seabed…</option>
+        <option value="7,0,4,3,2,1,6,5">…ending on Seabed, sources first</option>
+        <option value="auto">Fewest column-spanning edges (computed)</option>
+        <option value="0,1,2,3,4,5,6,7">Capital, Companies, States, Authorities, Legal, Seabed…</option>
+        <option value="5,4,3,2,1,0,6,7">Seabed, Legal, Authorities, States, Companies, Capital…</option>
+      </select>
+      <p class="hint" style="margin:10px 0 4px">Order within each column:</p>
+      <select id="sort">
+        <option value="country">Country bands</option>
+        <option value="barycentre">Fewest crossings (barycentre)</option>
+      </select>
+    </div>
+    <div class="group">
+      <h2>Entities</h2>
+      <div id="node-layers"></div>
+    </div>
+    <div class="group">
+      <h2>Relationships</h2>
+      <p class="hint">Click a heading to toggle the whole family.</p>
+      <div id="edge-layers" class="edge-layers"></div>
+    </div>
+    <div class="group">
+      <h2>On click</h2>
+      <p class="hint">Click any entity to trace it. Click empty space to clear.</p>
+      <select id="depth">
+        <option value="1">Highlight its direct connections</option>
+        <option value="2">Highlight two steps out</option>
+      </select>
+    </div>
+    <div class="group">
+      <h2>Your session</h2>
+      <p class="hint" id="save-note">Settings and anything you drag are kept in this browser.</p>
+      <button id="reset-pos" type="button">Release dragged positions</button>
+      <button id="reset-all" type="button">Clear saved session</button>
+    </div>
+    <div class="group">
+      <h2>Evidence</h2>
+      <p class="hint">Weaker evidence is drawn fainter.</p>
+      <select id="confidence">
+        <option value="all">Everything on record</option>
+        <option value="reported">Confirmed and reported only</option>
+        <option value="confirmed">Confirmed at primary source only</option>
+      </select>
+    </div>
+  </aside>
+
+  <section class="stage">
+    <div id="graph"></div>
+    <div class="detail" id="detail" role="region" aria-label="Entity detail"></div>
+  </section>
+</div>
+
+<footer class="footnote">
+  <div class="datanote">
+    <span>Working draft on unverified seed data. Every row needs checking against its source before it is cited.</span>
+    <span class="src" id="data-status">Loading data\u2026</span>
+    <details id="data-warnings" hidden><summary id="data-warnings-summary"></summary><ul id="data-warnings-list"></ul></details>
+  </div>
+</footer>
+<noscript><p class="footnote">This page needs JavaScript to draw the map.</p></noscript>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.28.1/cytoscape.min.js"></script>
+<script src="assets/config.js"></script>
+<script src="assets/data-loader.js"></script>
+<script src="assets/boot.js"></script>
+</body>
+</html>
