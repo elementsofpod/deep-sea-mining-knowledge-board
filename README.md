@@ -9,10 +9,10 @@ Viewers can switch what the map emphasises, choose how it is laid out, filter by
 kind of entity or relationship, and click any entity to trace its connections.
 Anything a viewer drags is remembered in their own browser.
 
-**Live site:** <https://elementsofpod.github.io/deep-sea-mining-knowledge-board/> (once you have
+**Live site:** <https://elementspod.github.io/deep-sea-mining-knowledge-board/> (once you have
 followed "Publish it" below)
 
-**Repository:** <https://github.com/elementsofpod/deep-sea-mining-knowledge-board>
+**Repository:** <https://github.com/elementspod/deep-sea-mining-knowledge-board>
 
 > **Status: working draft.** The data is seed data that has not been checked
 > against primary sources. Every row carries a `confidence` value and a
@@ -60,7 +60,7 @@ You will have a folder called `dsm-knowledge-board`. Open it. You should see
 
 ### 2. Create the repository
 
-1. Sign in at github.com **as `elementsofpod`** and click the **+** at the top right, then
+1. Sign in at github.com **as `elementspod`** and click the **+** at the top right, then
    **New repository**.
 2. Name it `deep-sea-mining-knowledge-board`. Lowercase, no spaces: the name becomes part of the
    web address, so keep it exactly like this.
@@ -90,7 +90,7 @@ You will have a folder called `dsm-knowledge-board`. Open it. You should see
 4. Under **Branch**, choose **main** and the folder **/ (root)**, then click **Save**.
 5. Wait. It can take up to ten minutes the first time. Refresh the Pages settings
    page and a banner will show your address:
-   `https://elementsofpod.github.io/deep-sea-mining-knowledge-board/`
+   `https://elementspod.github.io/deep-sea-mining-knowledge-board/`
 
 ### 5. Check it worked
 
@@ -109,7 +109,7 @@ git init
 git add .
 git commit -m "First version"
 git branch -M main
-git remote add origin https://github.com/elementsofpod/deep-sea-mining-knowledge-board.git
+git remote add origin https://github.com/elementspod/deep-sea-mining-knowledge-board.git
 git push -u origin main
 ```
 
@@ -119,7 +119,7 @@ If git says `remote origin already exists`, the folder already points somewhere.
 instead of adding it again:
 
 ```bash
-git remote set-url origin https://github.com/elementsofpod/deep-sea-mining-knowledge-board.git
+git remote set-url origin https://github.com/elementspod/deep-sea-mining-knowledge-board.git
 git remote -v
 ```
 
@@ -172,7 +172,7 @@ point at ids, and so do the positions viewers have saved in their browsers.
 
 Because saved positions belong to a web address, **changing the address later
 (a new repository name, a different account, a custom domain) resets everyone's saved
-layouts.** The address is `https://elementsofpod.github.io/deep-sea-mining-knowledge-board/`; settle it before you share the link widely.
+layouts.** The address is `https://elementspod.github.io/deep-sea-mining-knowledge-board/`; settle it before you share the link widely.
 
 If a layout turns out to be worth keeping for everyone, it needs to become data
 rather than something one person did once. That is a change to the project, not a
