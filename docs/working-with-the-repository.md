@@ -36,7 +36,7 @@ nothing installed** and is the best place to start.
 
 **Change an existing file**
 
-1. Go to <https://github.com/elementsofpod/deep-sea-mining-knowledge-board> and sign in as **elementsofpod**, the account that
+1. Go to <https://github.com/elementspod/deep-sea-mining-knowledge-board> and sign in as **elementspod**, the account that
    owns it.
 2. Click the file, for example `data/elements.csv`.
 3. Click the **pencil icon** (Edit this file), top right of the file.
@@ -125,7 +125,7 @@ Do this once per device.
    Documents folder.
 3. Run this (the address is also under the green **Code** button on GitHub):
    ```
-   git clone https://github.com/elementsofpod/deep-sea-mining-knowledge-board.git
+   git clone https://github.com/elementspod/deep-sea-mining-knowledge-board.git
    ```
 4. Move into the new folder:
    ```
