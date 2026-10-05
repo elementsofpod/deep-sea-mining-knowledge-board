@@ -788,8 +788,8 @@ function updateSaveNote() {
   const el = document.getElementById("save-note");
   if (!el) return;
   el.textContent = n
-    ? n + (n === 1 ? " entity has" : " entities have") + " been placed by hand. Settings and positions are kept in this browser."
-    : "Settings and anything you drag are kept in this browser.";
+    ? n + (n === 1 ? " entity has" : " entities have") + " been placed by hand. Your layout and settings are saved only in this browser, on this device."
+: "Your layout and settings are saved only in this browser, on this device. Other browsers, devices and visitors will not see them.";
 }
 function restoreSession() {
   const st = readStore();
