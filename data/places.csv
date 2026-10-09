@@ -1,0 +1,40 @@
+kind,key,lat,lon,atlas_name,note
+country,United States,38.90,-77.04,United States of America,capital
+country,Jamaica,17.97,-76.79,,capital
+country,Norway,59.91,10.75,,capital
+country,Cook Islands,-21.21,-159.78,,capital; too small to appear in the outline
+country,Japan,35.68,139.69,,capital
+country,Canada,45.42,-75.70,,capital
+country,Belgium,50.85,4.35,,capital
+country,United Kingdom,51.51,-0.13,,capital
+country,China,39.90,116.40,,capital
+country,Russian Federation,55.76,37.62,Russia,capital
+country,New Zealand,-41.29,174.78,,capital
+country,Germany,52.52,13.40,,capital
+country,Papua New Guinea,-9.44,147.18,,capital
+country,Netherlands,52.37,4.90,,capital
+country,Nauru,-0.55,166.92,,capital; too small to appear in the outline
+country,Tonga,-21.14,-175.20,,capital; too small to appear in the outline
+country,Kiribati,1.33,172.98,,capital; too small to appear in the outline
+country,Singapore,1.29,103.85,,capital; too small to appear in the outline
+country,Poland,52.23,21.01,,capital
+country,Brazil,-15.79,-47.88,,capital
+country,France,48.86,2.35,,capital
+country,Switzerland,46.95,7.45,,capital
+country,India,28.61,77.21,,capital
+country,Republic of Korea,37.57,126.98,South Korea,capital
+country,French Polynesia,-17.54,-149.57,,capital; too small to appear in the outline
+area,ccz,12.0,-130.0,,approximate centre of the zone
+area,mar,20.0,-45.0,,approximate; contract areas lie along the ridge
+area,cir,-15.0,67.0,,approximate
+area,swir,-38.0,50.0,,approximate
+area,indian-ocean-basin,-13.0,76.0,,approximate
+area,wpacific,17.0,156.0,,approximate; Magellan Mountains and nearby seamounts
+area,rio-grande,-31.0,-35.0,,approximate
+area,ck-eez,-15.0,-161.0,,approximate; nodule province inside the EEZ
+area,nor-shelf,73.5,5.0,,approximate; Mohns and Knipovich ridges
+area,penrhyn-basin,-11.0,-151.0,,approximate; the part beyond national jurisdiction
+area,bismarck-sea,-3.8,152.1,,approximate; Solwara 1
+area,okinawa-trough,27.0,127.0,,approximate
+area,japan-eez,24.3,154.0,,approximate; check against the field-test location
+area,south-taranaki,-40.0,174.2,,approximate

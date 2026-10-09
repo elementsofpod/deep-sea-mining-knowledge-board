@@ -30,11 +30,15 @@ assets/
   boot.js             Loads the data, then starts the interface.
   app.js              The interface: the map, the controls, the saved session.
   style.css           Colours and layout.
+  map.js              The world-map view (the "World map" button).
+  world-110m.json     The world outline the map draws.
+  vendor/             Copies of the map libraries (d3, topojson-client) and their licences.
 data/
   elements.csv        One row per entity.
   connections.csv     One row per relationship.
   anchors.csv         A short list that tells the page which permitting regime
                       (ISA, US, national) each regulator or area belongs to.
+  places.csv          Map positions: one point per country, and one per seabed area.
 docs/
   working-with-the-repository.md   Beginner's guide: updating files, and working from another device.
   codebook.md         The rules for recording data. Read before adding rows.
@@ -197,14 +201,14 @@ setting; ask.
 
 ## Licence
 
-No licence has been chosen yet, and **without one, nobody else is allowed to reuse
-the code or the data**, which defeats the purpose of an open board. Decide with
-whoever owns the project. The usual pairing for this kind of work is an open
-licence for the dataset (for example Creative Commons Attribution 4.0) and a
-permissive one for the code (for example MIT).
+- **Code** (`index.html` and the `assets` folder): MIT. See [`LICENSE`](LICENSE).
+- **Data and documentation** (the `data` and `docs` folders): CC BY 4.0. See
+  [`LICENSE-DATA.md`](LICENSE-DATA.md).
 
-To add it: on the repository page click **Add file → Create new file**, name it
-`LICENSE`, and GitHub will offer a **Choose a license template** button.
+Please credit the project as:
+
+> Deep-Sea Mining Knowledge Board, Elements of Deep Sea Mining Podcast
+> ([www.elementspod.com](https://www.elementspod.com)), https://elementspod.github.io/deep-sea-mining-knowledge-board/ (CC BY 4.0)
 
 ---
 

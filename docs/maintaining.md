@@ -111,6 +111,29 @@ page skips only the bad row and draws the rest.
 
 You never type `role_x`, `country_rank` or `track`. The page works them out.
 
+## 4b. The world map and its positions
+
+The "World map" button places every actor at its country and every seabed area
+at its own point. Those points come from `data/places.csv`, one row each:
+
+| kind | key | lat | lon | atlas_name | note |
+|---|---|---|---|---|---|
+| `country` | the country exactly as written in `elements.csv` | latitude | longitude | the name in the world outline, if different (e.g. `Russia`) | free text |
+| `area` | the seabed area's `id` | latitude | longitude | (leave blank) | free text |
+
+- **New country in the data?** Add a `country` row, or its actors cannot be
+  placed. The map lists them under "Not on the map" and names the reason.
+- **New seabed area?** Add an `area` row with a representative point.
+- Countries sit at their **capital**; areas at an **approximate** centre. The
+  map says so on screen. Points are for display, not navigation.
+- Latitude is north-positive, longitude east-positive (so the Pacific near
+  Hawaii is about `20, -155`).
+- `atlas_name` only matters for clicking the country's shape. Small island
+  states (Nauru, Tonga, Kiribati, the Cook Islands) are too small for the
+  outline, so they are reached through their marker instead.
+
+The map follows the Emphasis and the filters, like the network does.
+
 ## 5. Make a snapshot (before citing, and every so often)
 
 The `data/` folder is what a reader can cite, so refresh it when the data has moved
